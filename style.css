@@ -91,3 +91,40 @@ font-size: 25px;
 color: #628F19;
 text-align: justify;
 }
+.sidebar{
+    height: 500px;
+    width: 450px;
+    border: 1px solid #BAF46F;
+    border-radius: 20px;
+    padding: 20px 30px;
+}
+.sidebar h3{
+    font-size: 30px;
+    color: #B314DB;
+}
+#leftsidebar ul li{
+    padding-bottom: 7px;
+    list-style-image: url(images/arrow.png);
+    padding-left: 5px;
+}
+#rightsidebar ul li{
+    padding: 20px 0 20px 70px;
+    background: url(images/tick.png) no-repeat left center;
+}
+.sidebar ul li a{
+text-decoration: none;
+font-size: 20px;
+color: #5d12e7;
+}
+.sidebar ul li a:hover{
+    font-size: 23px;
+    font-weight: 700;
+    transition: font-size 0.3s ease;
+color: #B314DB;
+}
+#leftsidebar{
+float: left;
+}
+#rightsidebar{
+float: right;
+}
