@@ -128,3 +128,9 @@ float: left;
 #rightsidebar{
 float: right;
 }
+.footer{
+    height: 70px;
+    background: linear-gradient(#eeee6b, #f8f80c);
+    padding: 10px 0 0 30px;
+    margin-top: 15px;
+}
